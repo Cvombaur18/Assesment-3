@@ -1,0 +1,7 @@
+When you type in a domain name the browser connects to the domain name server and retrieves the IP 
+address for that domain name.  It then connects to the web server and sends an http
+request.  The server receives the request and checks for the page.  If it exists the 
+server send sit and if not you get an error. The browser then goes through the page and looks for 
+elements to comlpete the page.  For each item the browser makes additional connections (I believe
+these are packets) which break down everything into smaller elements.  After retrieving these
+then yopur page loads
